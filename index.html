@@ -3,29 +3,35 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Kindzmaster</title>
-	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header>
-    <div class="header-logo"></div>
-    <section class="contacts-info">
-      <div class="tel">1-800-633-3469</div>
-      <div class="mail">mailedukado.com</div>
+    <div class="header-logo">
+      <img src="img/logo.png" alt="">
+    </div>
+    <section class="header-content">
+      <div class="contacts-info">
+         <a href="tel:+18006333469">1-800-633-3469</a>
+        <a href="mailto:mail@edukado.com">mailedukado.com</a>
+      </div>
+      <div class="site-management">
+        <div class="site-search"></div>
+        <div class="site-registration">Register</div>
+        <div class="site-login">Login</div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Academic</a></li>
+          <li><a href="#">Admission</a></li>
+          <li><a href="#">Teachers</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
     </section>
-    <section class="site-management">
-      <div class="site-search"></div>
-      <div class="site-registration">Register</div>
-      <div class="site-login">Login</div>
-    </section>
-    <nav>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Academic</a></li>
-      <li><a href="#">Admission</a></li>
-      <li><a href="#">Teachers</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Blog</a></li>
-      <li><a href="#">Contact</a></li>
-    </nav>
   </header>
   <main>
     <h1 class="visually-hidden">Kids school</h1>
@@ -42,10 +48,7 @@
       <a href="#" class="button">Admission now</a>     
     </section>
     <section class="school">
-      <div class="school-describe">
-        Welcome to 
-      </div>
-      <h2>Kidz Master</h2>
+      <h2>Welcome to <b>Kidz Master</b></h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam eos in vel nesciunt expedita, optio amet voluptatem est dolor ducimus sed ex ab eum tenetur nisi possimus a consectetur, mollitia doloribus laboriosam ut?</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque modi, voluptatum fugiat dignissimos!</p>
       <button>Read more</button>
@@ -85,19 +88,32 @@
           <a href="#">Apply now</a>
         </div>
        </div>
-       <button>View all courses</button>
+       <a href="#">View all courses</a>
     </section>
     <section class="opportunity">
-      <img src="" alt="">
       <h2>School Facilities</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis aspernatur iure vero, nisi quisquam illum harum non cum odit. Alias commodi, error officia quisquam quam, at.</p>
       <div class="opportunity-symbols">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
+        <ul>
+          <li>
+            <p>Healthy Meals</p>
+          </li>
+          <li>
+            <p>Multimedia Class</p>
+          </li>
+          <li>
+            <p>Art Class</p>
+          </li>
+          <li>
+            <p>Events</p>
+          </li>
+          <li>
+            <p>Teachers</p>
+          </li>
+          <li>
+            <p>Achievements</p>
+          </li>
+        </ul>
       </div>
     </section>
     <section class="teachers">
@@ -145,9 +161,9 @@
   </section>
   <section class="school-news">
     <h2>From Notice Board</h2>
-    <button>Last news</button>
-    <button>Bulletin</button>
-    <button>Media</button>
+    <a href="#">Last News</a>
+    <a href="#">Bulletin</a>
+    <a href="#">Media</a>
     <ul>
       <li> 
         <img src="" alt="">
@@ -166,6 +182,72 @@
       </li>
     </ul>
   </section>
+  <section class="site-info">
+      <div class="info-address">
+        <img src="" alt="">
+        <h3>Kidz Master Address</h3>
+        <p>
+          73724 Route, 4A<br>
+          South Richmond Hill, NY 11419</p>
+      </div>
+      <div class="info-notice-board">
+        <img src="" alt="">
+        <a href="#">Notice Board &#8250;</a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, aperiam.</p>
+      </div>
+      <div class="info-office-hour">
+        <img src="" alt="">
+        <h3>Office Hour</h3>
+        <p>
+          Monday-Friday<br>
+          9:00am-5:00pm
+        </p>
+      </div>
+      <div class="info-admission">
+        <img src="" alt="">
+        <a href="#">Admission Now &#8250;</a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, aperiam.</p>
+      </div>
+  </section>
   </main>
+  <footer>
+    <section class="inscription">
+      <p>Sign up for our newssletter</p>
+      <form action="">
+        <input type="search" value="Enter your mail">
+        <input type="submit">
+      </form>
+    </section>
+    <section class="about-school">
+      <ul class="school-info">
+        <li><span class="info-title">Address</span></li>
+        <li>
+          Address: 73724 Route, 4A<br> 
+          South Richmond Hill, NY 11419</li>
+        <li>
+          <ul>
+            <li>Tel: (603)-677-3400</li>
+            <li>Email: info@yourdomain.com</li>
+            <li>Web: yourdomain.com</li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="school-links">
+        <li><span class="info-title">Quick link</span></li>
+        <li><a href="#">Calender</a></li>
+        <li><a href="#">Maps & Directions</a></li>
+        <li><a href="#">Our News</a></li>
+        <li><a href="#">University Courses</a></li>
+        <li><a href="#">Contact us</a></li>
+      </ul>
+      <div class="social-icons">
+        <a href="">Fb</a>
+        <a href="">G+</a>
+        <a href="">In</a>
+        <a href="">Twit</a>
+        <a href="">Yout</a>
+      </div>
+    </section>
+  </footer>
 </body>
 </html>
