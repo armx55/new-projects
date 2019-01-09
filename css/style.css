@@ -1,0 +1,43 @@
+body {
+  width:1920px;
+  margin:0;
+  padding:0;
+}
+
+header {
+  width: 100%;
+  background-image: url(../img/rectangleblue.png);
+}
+
+.header-logo {
+  margin-left: 390px;
+  display: flex;
+}
+
+.header-content {
+  display: flex;
+  margin-left: 700px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  list-style-type: none;
+  margin-left: 55px;
+}
+
+nav li:first-child {
+  margin:0;
+}
+
+nav a {
+  color:white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav .active {
+  font-weight: bold;
+}
