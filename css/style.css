@@ -1,22 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  width:1920px;
   margin:0;
   padding:0;
 }
 
 header {
   width: 100%;
-  background-image: url(../img/rectangleblue.png);
+  background:#00a4d3;
+}
+
+.wrapper {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.wrapper-header {
+  padding:35px 0 157px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header-logo {
-  margin-left: 390px;
-  display: flex;
+  display: block;
 }
 
 .header-content {
   display: flex;
   margin-left: 700px;
+  flex-wrap: Wrap;
+  width: 790px;
+}
+
+.top-header {
+  width: 100%;
+  display: flex;
+}
+
+.top-header a {
+  text-decoration: none;
+}
+
+nav {
+  width: 100%;
 }
 
 nav ul {
